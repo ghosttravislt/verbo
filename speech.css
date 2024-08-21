@@ -84,7 +84,7 @@
 
 .ring {
   font-size: 9rem;
-  margin-left: 520px;
+  margin-left: 570px;
   color: rgb(16, 15, 15);
   user-select: none;
   position: relative;
@@ -93,7 +93,7 @@
 #start {
   position: absolute;
   top: 206px;
-  left: 532px;
+  left: 582px;
   width: 120px;
   height: 120px;
   font-size: 2rem;
@@ -106,7 +106,7 @@
   border-radius: 10px;
   font-size: 1.2rem;
   padding-left: 30px;
-  width: 1200px;
+  width: 700px;
   height: 220px;
-  margin-left: 50px;
+  margin-left: 300px;
 }
