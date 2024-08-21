@@ -24,11 +24,11 @@ clicked.addEventListener("click", () => {
   speechApi.onend = () => {
     ring.style.color = "black";
     speechApi.stop();
+    setInterval(() => {
+      speech.innerText = "";
+      console.log("transcript clean");
+    }, 1000 * 60);
   };
-
-  setInterval(() => {
-    speech.innerText = "";
-  }, 1000 * 60);
 });
 
 // console.log(speechApi);
