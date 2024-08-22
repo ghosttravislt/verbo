@@ -106,7 +106,29 @@
   border-radius: 10px;
   font-size: 1.2rem;
   padding-left: 30px;
+  padding-top: 30px;
   width: 700px;
   height: 220px;
   margin-left: 300px;
+  position: absolute;
+}
+
+/* styling the copy icon  */
+
+.copy {
+  position: relative;
+  top: 20px;
+  left: 940px;
+  font-size: 1.3rem;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.9;
+}
+
+.copy:hover {
+  background-color: #8a858578;
+  padding: 4px;
+  border-radius: 5px;
+  cursor: pointer;
 }
