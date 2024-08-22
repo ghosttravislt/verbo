@@ -23,6 +23,13 @@ clicked.addEventListener("click", () => {
 
   speechApi.onend = () => {
     ring.style.color = "black";
+    const synth = window.speechSynthesis;
+    let utterThis = new SpeechSynthesisUtterance();
+    utterThis.rate = 2;
+    let talk = (utterThis.text = finalTranscript);
+    console.log(talk);
+    synth.speak(utterThis);
+
     speechApi.stop();
     setInterval(() => {
       speech.innerText = "";
@@ -30,5 +37,3 @@ clicked.addEventListener("click", () => {
     }, 1000 * 60);
   };
 });
-
-// console.log(speechApi);
